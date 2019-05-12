@@ -1,0 +1,78 @@
+html {
+    height:100%;
+}
+body {
+    min-height:100%; position:relative;
+}
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	left: 0;
+	width: 100%;
+	position: absolute;
+  	bottom: 0;
+}
+
+.conn {
+	max-height: 80vh;
+	overflow: auto;
+}
+
+.blog {
+	max-height: 40vh;
+	overflow: auto;
+}
+
+.like {
+	color: blue;
+	border: none;
+	outline: grey;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.inlineForm {
+	display: inline-block;
+}
+
+.btn-my {
+	border: none;
+	outline: grey;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.btn-my .like :hover {
+	background-color: #808080;
+	color: white;
+}
+
+.ifd {
+	display: none;
+	overflow: auto;
+}
+
+.rowAllign {
+	display: flex;
+	align-items: center;
+}
+
+.footerusers {
+	background-color: #333;
+	color: white;
+	padding-top: 10px;
+    padding-bottom: 0px;
+	padding: 10px;
+	width: 100%;
+}
+
+.displaynone{
+	display: none;
+}
+
+.msgAlert{
+	color: red;
+}
