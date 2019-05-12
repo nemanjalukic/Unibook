@@ -23,9 +23,10 @@ import net.etfbl.ip.projektni.dto.Blog;
 import net.etfbl.ip.projektni.dto.Komentar;
 
 public class MongoUtil {
+		public static final String SERVER="localhost";
 
 	    public static  MongoClient getConnection() {
-			MongoClient mongoClient = new MongoClient("localhost", 27017);
+			MongoClient mongoClient = new MongoClient(SERVER, 27017);
 	        return mongoClient;
 	    }
 	    
